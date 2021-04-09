@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="0">
+    <!-- NAVIGATION -->
+    <header id="home_anchor">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark" id="menu">
+            <div class="container">
+                <a href="" class="navbar-brand"><img src="img/Группа 1.png" alt="Logo" width="49" height="45"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-control="navbarContent" aria-expanded="false">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+                    <ul class="navbar-nav mr-auto mb-1 justify-content-around align-items-center">
+                        <li class="nav-item">
+                            <a href="#home_anchor" class="nav-link px-lg-4">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#projects_anchor" class="nav-link px-lg-4">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#resume_anchor" class="nav-link px-lg-4">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact_anchor" class="nav-link px-lg-4">Contact me</a>
+                        </li>
+                        <li class="nav-item">
+                                <a href="https://github.com/skippikp" class="nav-link social-icon"><i class="fab fa-github-square"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://vk.com/skippik" class="nav-link social-icon"><i class="fab fa-vk"></i></a>
+                        </li>
+                    </ul>  
+                </div>
+            </div>
+        </nav>
+        <!-- PARALLAX -->
+        <section class="parallax-wrap container-fluid text-center" id="parallaxItem">
+            <div class="parallax">
+                <div class="layer mx-auto d-flex flex-column align-items-md-center" data-speed="2">
+                    <h1>Pavel Movchan</h1>
+                    <h3 class="text-uppercase">Web dev portfolio</h3>
+                    <div class="row mt-3">
+                        <div class="col-6 pt-3"><a href="#projects_anchor" class="btn btn-outline-secondary shadow">projects</a></div>
+                        <div class="col-6 pt-3"><a href="#resume_anchor" class="btn btn-outline-secondary text-nowrap shadow">about me</a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <!-- Projects-section -->
+		<section class="projects" id="projects_anchor">
+			<div class="wrapper container-fluid mx-auto">
+				<div class="projects__label">
+					<h1 class="label-h1">&ltprojects&gt</h1>
+					<p class="label-p">&lthere are some of my projects <br>&nbsp&nbspthat I would like to introduce you&gt</p>
+				</div>
+				<div class="cards row px-4">
+					<!-- Left side -->
+					<div class="left col-md-6">
+						<div  class="row justify-content-center">
+							<div class="example">
+								<div class="content-card" >
+                                    <i class="fas fa-wrench img_icon-wip"></i>
+									<div class="content">
+										<h2>My first project</h2>
+										<p>I am still working on something exciting, you will be able to see it very soon.
+										</p>
+										<a href="#" class="btn btn-outline-secondary disabled">Under developement</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- RIGHT SIDE  -->
+					<div class="right col-md-6">
+						<div class="row justify-content-center">
+							<div class="example">
+								<div class="content-card">
+                                    <i class="fas fa-wrench img_icon-wip"></i>
+									<div class="content">
+										<h2>My first project</h2>
+										<p>I am still working on something exciting, you will be able to see it very soon.
+										</p>
+										<a href="#" class="btn btn-outline-secondary disabled">Under developement</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>			
+		</section>
+        <!-- RESUME SECTION -->
+        <section class="resume" id="resume_anchor">
+            <div class="wrapper container-fluid mx-auto row justify-content-around">
+                <!-- left -->
+                <div class="col-md-6">
+                    <h1 class="label-h1">&ltabout & <br>skills&gt</h1>
+                    <p class="label-p mt-4">I started building for the web in 2020. Since then, one of my main principles has been the constant learning.
+                        Learning something new, I create websites in order to consolidate an acquired knowledge. Some of them are represented in this portfolio.
+                    </p>
+                    <div class="resume__info">
+                        <div class="row justify-content-between">
+                            <div class="resume__info__personal-info col-sm-4 pt-2 ps-3">
+                                <h4>Name:</h4>
+                                <p>Movchan Pavel</p>
+                                <h4>Age:</h4>
+                                <p>26 years</p>
+                                <h4>Location</h4>
+                                <p>Blagoveschensk, Russia</p>
+                            </div>
+                            <div class="resume__info__social-wrap d-flex col-md-6 me-5" data-aos="zoom-out">
+                                <div class="resume__info__social ps-3 pt-2">
+                                    <h4>Email:</h4>
+                                    <a href="mailto: tz_95@mail.ru" class="resume__link"><p>tz_95@mail.ru</p></a>
+                                    <h4>GitHub:</h4>
+                                    <a href="https://github.com/skippikp" class="resume__link"><p>https://github.com/skippikp</p></a>
+                                    <h4>VK:</h4>
+                                    <a href="https://vk.com/skippik" class="resume__link"><p>https://vk.com/skippik</p></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="resume__education-wrap mt-5" data-aos="zoom-out">
+                            <div class="education pt-3 d-flex justify-content-around align-items-center">
+                                <div class="">
+                                    <h4 class="pb-2">Education:</h4>
+                                    <p>Amur State University<br>September 2012-July 2016</p>
+                                </div>
+                                <div class=" text-nowrap">
+                                    <p>Bachelor - World economy</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- right -->
+                <div class="skills col-md-6" id="skills-section">
+                    <div class="skills__graph">
+                        <div class="chart chart-html">
+                            <span>HTML5 <i class="fab fa-html5 font-weight-normal"></i></span>
+                            <div class="progress">
+                                <div class="percent-complete">90%</div>
+                                <div class="progress-bar" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="chart chart-css">
+                            <span>CSS3 <i class="fab fa-css3-alt font-weight-normal"></i></span>
+                            <div class="progress">
+                                <div class="percent-complete">90%</div>
+                                <div class="progress-bar" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="chart chart-js">
+                            <span>JavaScript <i class="fab fa-js font-weight-normal"></i></span>
+                            <div class="progress">
+                                <div class="percent-complete">75%</div>
+                                <div class="progress-bar" data-progress="75"></div>
+                            </div>
+                        </div>
+                        <div class="chart chart-react">
+                            <span>React <i class="fab fa-react font-weight-normal"></i></span>
+                            <div class="progress">
+                                <div class="percent-complete">50%</div>
+                                <div class="progress-bar" data-progress="50"></div>
+                            </div>
+                        </div>
+                        <div class="chart chart-node">
+                            <span>NodeJs <i class="fab fa-node font-weight-normal"></i></span>
+                            <div class="progress">
+                                <div class="percent-complete">25%</div>
+                                <div class="progress-bar" data-progress="25"></div>
+                            </div>
+                        </div>
+                        <div class="chart chart-bs">
+                            <span>Bootstrap <i class="bi bi-bootstrap-fill font-weight-normal"></i></span>
+                            <div class="progress">
+                                <div class="percent-complete">50%</div>
+                                <div class="progress-bar" data-progress="50"></div>
+                            </div>
+                        </div>
+                        <div class="chart chart-sass">
+                            <span>Sass <i class="fab fa-sass font-weight-normal"></i></span>
+                            <div class="progress">
+                                <div class="percent-complete">50%</div>
+                                <div class="progress-bar" data-progress="50"></div>
+                            </div>
+                        </div>
+                        <div class="chart chart-git">
+                            <span>Git <i class="fab fa-git font-weight-normal"></i></span>
+                            <div class="progress">
+                                <div class="percent-complete">25%</div>
+                                <div class="progress-bar" data-progress="25"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills__languages-wrap mt-5"data-aos="zoom-out">
+                        <div class="skills__languages pt-5 ps-5">
+                            <h4 class="pb-2">Languages:</h4>
+                            <div class="chart chart-rus">
+                                <span>Russian</span>
+                                <div class="progress">
+                                    <div class="percent-complete">native</div>
+                                    <div class="progress-bar" data-progress="100"></div>
+                                </div>
+                            </div>
+                            <div class="chart chart-eng">
+                                <span>English</span>
+                                <div class="progress">
+                                    <div class="percent-complete">intermediate</div>
+                                    <div class="progress-bar" data-progress="50"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CONTACT SECTION -->
+        <section class="contact-section" id="contact_anchor">
+            <div class="wrapper container-fluid mx-auto py-4">
+                <h3 class="text-center">&ltcontact&gt</h3>
+                <div class="contact-section-wrap d-md-flex justify-content-md-around align-items-md-center">
+                    <div class="contact-card">
+                        <div class="box">
+                            <div class="contact-content">
+                                <i class="contact-icon far fa-envelope"></i>
+                                <a href="mailto: tz_95@mail.ru"><p>tz_95@mail.ru</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="box">
+                            <div class="contact-content">
+                                <i class="contact-icon fas fa-phone"></i>
+                                <a href="tel:+79245811236"><p>+79245811236</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="box">
+                            <div class="contact-content">
+                                <i class="contact-icon fab fa-vk"></i>
+                                <a href="https://vk.com/skippik"><p>vk.com/skippik</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container-fluid mx-auto py-4">
+            <p class="copyright">Developed by me, 2021</p>
+        </div>
+    </footer>
+    <script src="js/index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>
