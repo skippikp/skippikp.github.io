@@ -19,7 +19,7 @@ document.addEventListener("mousemove", parallax);
 class parallaxTiltEffect {
     constructor(element) {
         this.element = element;
-        this.container = this.element.querySelector(".content-card");
+        this.container = this.element.querySelector(".card__body");
         this.size = [520, 260];
         [this.w, this.h] = this.size;
 
@@ -48,7 +48,7 @@ class parallaxTiltEffect {
 
     handleMouseEnter() {
         this.mouseOnComponent = true;
-        this.container.classList.add("content-card--active");
+        this.container.classList.add("card__body--active");
     }
 
     handleMouseLeave() {
@@ -57,7 +57,7 @@ class parallaxTiltEffect {
     }
 
     defaultStates() {
-        this.container.classList.remove("content-card--active");
+        this.container.classList.remove("card__body--active");
         this.setProperty('--rY', 0);
         this.setProperty('--rX', 0);
     }
@@ -73,7 +73,7 @@ class parallaxTiltEffect {
     }    
 }
 
-const elem = document.querySelectorAll('.example');
+const elem = document.querySelectorAll('.card-wrap');
 
 for (let i of elem) {
     new parallaxTiltEffect(i)
