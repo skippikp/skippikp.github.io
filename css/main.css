@@ -204,13 +204,18 @@ h4 {
 }
 
 .content {
-    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
     position: relative;
     z-index: 3;
     color: #fff;
     opacity: 0;
     transform: translateX(30px);
     transition: 0.5s all;
+}
+
+.content a {
+
 }
 
 .card__body:hover .content{
