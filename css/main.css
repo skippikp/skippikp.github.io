@@ -214,10 +214,6 @@ h4 {
     transition: 0.5s all;
 }
 
-.content a {
-
-}
-
 .card__body:hover .content{
     opacity: 1;
     transform: translateX(0px);
