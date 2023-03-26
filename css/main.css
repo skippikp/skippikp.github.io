@@ -189,7 +189,7 @@ h4 {
     opacity: 0;
 }
 
-.card__body:hover:before {
+.card__body--active:before {
     opacity: 0.9;
 }
 
@@ -214,7 +214,7 @@ h4 {
     transition: 0.5s all;
 }
 
-.card__body:hover .content{
+.card__body--active .content{
     opacity: 1;
     transform: translateX(0px);
 }
@@ -230,7 +230,7 @@ h4 {
     margin-bottom: 20px;
 }
 
-.content .btn:hover {
+.card__body--active .content .btn:hover {
     box-shadow: 0 0 10px black;
 }
 
@@ -295,6 +295,16 @@ h4 {
 
     /* RESUME RIGHT SIDE */
 
+.tsIcon {
+    height: 12px;
+    width: 12px;
+}
+
+.reduxIcon {
+    height: 12px;
+    width: 12px;
+}
+
 .chart {
     font-size: 14px;
     color: #C6CED5;
@@ -344,6 +354,14 @@ h4 {
     background-color: #B9BC2B;
 }
 
+.chart-ts .progress-bar {
+    background-color: #3178c6;
+}
+
+.chart-redux .progress-bar {
+    background-color: #764ABC;
+}
+
 .chart-react .progress-bar {
     background-color: #00A7EF;
 }
@@ -369,9 +387,9 @@ h4 {
 }
 
 .skills__graph {
-    padding-top: 5.8em;
     padding-left: 120px;
     padding-right: 50px;
+    margin-bottom: 40px;
 }
 
 .skills__languages {

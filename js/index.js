@@ -11,6 +11,21 @@ const parallax = (e) => {
 
 document.addEventListener('mousemove', parallax);
 
+//ADD AGE
+var now = new Date();
+var today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+var dob = new Date(1995, 5, 11);
+var dobnow = new Date(today.getFullYear(), dob.getMonth(), dob.getDate());
+var age;
+
+age = today.getFullYear() - dob.getFullYear();
+if (today < dobnow) {
+  age = age-1;
+}
+
+const ageBlock = document.querySelector('.resume_age');
+ageBlock.innerHTML = `${age} years`
+
 // CARDS PARALAX
 
 class parallaxTiltEffect {
